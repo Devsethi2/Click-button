@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.retro {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 0.75rem 1rem;
+    border: solid 0.125rem #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+    transition: transform 50ms, box-sahdow 50ms;
+}
+.retro:active {
+    transform: translate(0.125rem, 0.125rem);
+    box-shadow: 0.125rem 0.125rem #121212;
+}
